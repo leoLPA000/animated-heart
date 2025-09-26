@@ -21,4 +21,5 @@ Una hermosa animación de corazón con mensaje personalizado para **Nombre**.
 Abre `index.html` en tu navegador favorito y disfruta la animación.
 
 ---
-Hecho con ❤️ para NOMBRE
+
+Hecho con ❤️ para Rocío
