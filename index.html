@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>💖 Para mi dua Rocío 💖</title>
+    <meta name="description" content="Animación romántica de corazón con mensaje personalizado">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- Fondo con gradiente animado -->
+        <div class="background-gradient"></div>
+        
+        <!-- Estrellas flotantes -->
+        <div class="stars">
+            <div class="star" style="--delay: 0s; --duration: 3s;">✨</div>
+            <div class="star" style="--delay: 0.5s; --duration: 4s;">⭐</div>
+            <div class="star" style="--delay: 1s; --duration: 3.5s;">💫</div>
+            <div class="star" style="--delay: 1.5s; --duration: 4.5s;">✨</div>
+            <div class="star" style="--delay: 2s; --duration: 3.2s;">⭐</div>
+            <div class="star" style="--delay: 2.5s; --duration: 4.2s;">💫</div>
+        </div>
+        
+        <!-- Canvas del corazón -->
+        <canvas id="heart"></canvas>
+        
+        <!-- Corazones flotantes decorativos -->
+        <div class="floating-hearts">
+            <div class="heart-float" style="--delay: 0s;">💕</div>
+            <div class="heart-float" style="--delay: 2s;">💖</div>
+            <div class="heart-float" style="--delay: 4s;">💗</div>
+            <div class="heart-float" style="--delay: 6s;">💝</div>
+        </div>
+        
+        <!-- Mensaje principal -->
+        <div id="message" class="message">
+            <div class="message-decoration top">╔══════════════════╗</div>
+            <div class="line1">Para mi dua</div>
+            <div class="line2">Rocío</div>
+            <div class="message-decoration bottom">╚══════════════════╝</div>
+        </div>
+        
+        <!-- Efectos de brillo -->
+        <div class="sparkles">
+            <div class="sparkle" style="--delay: 0s;">✧</div>
+            <div class="sparkle" style="--delay: 1s;">✦</div>
+            <div class="sparkle" style="--delay: 2s;">✧</div>
+            <div class="sparkle" style="--delay: 3s;">✦</div>
+        </div>
+        
+        <!-- Contenedor para partículas del cursor -->
+        <div id="cursor-particles"></div>
+        
+<script src="script.js"></script>
+<script src="cursor-effects.js"></script>
+</body>
+</html>
